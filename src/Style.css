@@ -1,0 +1,229 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  p {
+    margin: 0;
+    color: #555;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 25%;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    color: #93c5fd;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .header p {
+    font-size: 14px;
+  }
+  
+  .profile-info {
+    text-align: right;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    background-color: #d1d5db;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  
+  /* Homework Card */
+  .homework-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homework-card h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    border-radius: 4px;
+    background-color: #e5e7eb;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  /* Studying Hours */
+  .studying-hours {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .studying-hours .progress-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .studying-hours p {
+    margin-top: 15px;
+  }
+  
+  /* Schedule Card */
+  .schedule-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .schedule-card h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .schedule-card .schedule-item {
+    margin-bottom: 15px;
+  }
+  
+  .schedule-card .schedule-item h3 {
+    font-size: 16px;
+  }
+  
+  .schedule-card .schedule-item p {
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  /* Calendar */
+  .calendar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendar h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .calendar .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  .calendar .day {
+    background-color: #f3f4f6;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .calendar .day:hover {
+    background-color: #93c5fd;
+    color: white;
+  }
+  
+  /* Documents List */
+  .documents-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .documents-list h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .documents-list .document {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  /* Feedback List */
+  .feedback-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-list h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .feedback-list p {
+    font-size: 14px;
+    color: #4b5563;
+  }
+  
